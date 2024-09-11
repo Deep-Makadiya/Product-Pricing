@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_product_extra_cost_form" model="ir.ui.view">
+        <field name="name">product.extra_cost.form</field>
+        <field name="model">product.extra_cost</field>
+        <field name="arch" type="xml">
+            <form string="Product Extra Cost">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="extra_cost_type_id"/>
+                            <field name="cost"/>
+                        </group>
+                        <group>
+                            <field name="start_date" required="1"/>
+                            <field name="end_date"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_product_extra_cost_tree" model="ir.ui.view">
+        <field name="name">product.extra_cost.tree</field>
+        <field name="model">product.extra_cost</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="sequence" widget="handle"/>
+                <field name="extra_cost_type_id"/>
+                <field name="start_date" required="1"/>
+                <field name="end_date"/>
+                <field name="cost" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_product_extra_cost" model="ir.actions.act_window">
+        <field name="name">Product Extra Cost</field>
+        <field name="res_model">product.extra_cost</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="view_product_extra_cost_tree"/>
+    </record>
+
+    <menuitem id="product_extra_cost_menu" name="Product Extra Cost" parent="sale.prod_config_main"
+              action="action_product_extra_cost" sequence="12"/>
+
+</odoo>

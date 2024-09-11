@@ -1,0 +1,357 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* product_pricing
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-17 11:49+0000\n"
+"PO-Revision-Date: 2023-08-17 11:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost_type__active
+msgid "Active"
+msgstr "Aktief"
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_sale_order__commercial_margin
+#: model:ir.model.fields,help:product_pricing.field_sale_order_line__commercial_margin
+msgid "Amount of margin based on calculated cost price of products"
+msgstr ""
+
+#. module: product_pricing
+#: model_terms:ir.ui.view,arch_db:product_pricing.view_product_extra_cost_type_search
+msgid "Archived"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_extra_cost__sequence
+msgid "Assigns the priority to the list of product extra cost."
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_sale_price__sequence
+msgid "Assigns the priority to the list of product sale price."
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_product__calculated_cost_price
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__calculated_cost_price
+msgid "Calculated Cost Price"
+msgstr "Berekende Kostprijs"
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_product__calculated_margin
+msgid "Calculated Margin"
+msgstr "Berekende Marge"
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_sale_order__commercial_margin
+#: model:ir.model.fields,field_description:product_pricing.field_sale_order_line__commercial_margin
+msgid "Commercial Margin"
+msgstr "Commerciele marge"
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_sale_order__commercial_margin_percentage
+#: model:ir.model.fields,field_description:product_pricing.field_sale_order_line__commercial_margin_percentage
+msgid "Commercial Margin Percentage"
+msgstr "Commerciele marge %"
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost__cost
+msgid "Cost"
+msgstr "Kosten"
+
+#. module: product_pricing
+#: model_terms:ir.ui.view,arch_db:product_pricing.product_product_normal_form_view_product_pricing
+msgid "Cost Price"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_extra_cost_type__name
+msgid "Cost type used in product extra cost"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_sale_price__calculated_cost_price
+msgid "Cost will be calculated based on several elements"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost__create_uid
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost_type__create_uid
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost__create_date
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost_type__create_date
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost__currency_id
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost__display_name
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost_type__display_name
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost__end_date
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__end_date
+msgid "End Date"
+msgstr "Einddatum"
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_extra_cost__end_date
+msgid "End date of the cost, leave blank if there is no end date"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_sale_price__end_date
+msgid "End date of the sale price, leave blank if there is no end date"
+msgstr ""
+
+#. module: product_pricing
+#: model_terms:ir.ui.view,arch_db:product_pricing.product_product_normal_form_view_product_pricing
+msgid "Extra Cost"
+msgstr "Extra kosten"
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost__extra_cost_type_id
+msgid "Extra Cost Type"
+msgstr "Extra Kostensoort"
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_extra_cost__cost
+msgid "Extra cost amount for this cost type"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_product__calculated_cost_price
+msgid "Field is calculated by sale_price model"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_supplierinfo__margin_calc
+msgid "For Margin Calc"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost__id
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost_type__id
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__id
+msgid "ID"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_extra_cost_type__active
+msgid "If cost type can be selected"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost____last_update
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost_type____last_update
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost__write_uid
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost_type__write_uid
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost__write_date
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost_type__write_date
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__margin
+#: model:ir.model.fields.selection,name:product_pricing.selection__product_sale_price__sale_price_calculation__margin
+#: model_terms:ir.ui.view,arch_db:product_pricing.product_product_normal_form_view_product_pricing
+msgid "Margin"
+msgstr "Marge"
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_sale_price__margin_percentage
+msgid "Margin %"
+msgstr "Marge %"
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_product__calculated_margin
+msgid "Margin % based on sale price and calculated cost price"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_sale_order__commercial_margin_percentage
+#: model:ir.model.fields,help:product_pricing.field_sale_order_line__commercial_margin_percentage
+msgid "Margin % calculation based on calculated cost price"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_sale_price__margin
+msgid "Margin Amount"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__margin_percentage
+#: model:ir.model.fields.selection,name:product_pricing.selection__product_sale_price__sale_price_calculation__margin_percentage
+msgid "Margin Percentage"
+msgstr "Marge %"
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost_type__name
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__name
+msgid "Name"
+msgstr "Naam"
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost__product_id
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__product_id
+msgid "Product"
+msgstr "Produkt"
+
+#. module: product_pricing
+#: model:ir.actions.act_window,name:product_pricing.action_product_extra_cost
+#: model:ir.model,name:product_pricing.model_product_extra_cost
+#: model:ir.model.fields,field_description:product_pricing.field_product_product__product_extra_cost_ids
+#: model:ir.ui.menu,name:product_pricing.product_extra_cost_menu
+#: model_terms:ir.ui.view,arch_db:product_pricing.view_product_extra_cost_form
+msgid "Product Extra Cost"
+msgstr "Product extra kosten"
+
+#. module: product_pricing
+#: model:ir.actions.act_window,name:product_pricing.action_product_extra_cost_type
+#: model:ir.model,name:product_pricing.model_product_extra_cost_type
+#: model:ir.ui.menu,name:product_pricing.product_extra_cost_type_menu
+#: model_terms:ir.ui.view,arch_db:product_pricing.view_product_extra_cost_type_form
+msgid "Product Extra Cost Type"
+msgstr "Product Extra kostentype"
+
+#. module: product_pricing
+#: model:ir.actions.act_window,name:product_pricing.action_product_sale_price
+#: model:ir.model,name:product_pricing.model_product_sale_price
+#: model:ir.model.fields,field_description:product_pricing.field_product_product__product_sale_price_ids
+#: model:ir.ui.menu,name:product_pricing.product_sale_price_menu
+#: model_terms:ir.ui.view,arch_db:product_pricing.view_product_sale_price_form
+msgid "Product Sale Price"
+msgstr "Productverkoopprijs"
+
+#. module: product_pricing
+#: model:ir.model,name:product_pricing.model_product_product
+msgid "Product Variant"
+msgstr "Productvariant"
+
+#. module: product_pricing
+#: model_terms:ir.ui.view,arch_db:product_pricing.product_product_normal_form_view_product_pricing
+msgid "Recalc"
+msgstr "Herberekenen"
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__recommended_sale_price
+#: model:ir.model.fields.selection,name:product_pricing.selection__product_sale_price__recommended_sale_price_calculation__recommended_sale_price
+msgid "Recommended Sale Price"
+msgstr "Advies Verkoopprijs"
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__recommended_sale_price_calculation
+msgid "Recommended Sale Price Calculation"
+msgstr "Berekening van de aanbevolen verkoopprijs"
+
+#. module: product_pricing
+#: model:ir.model.fields.selection,name:product_pricing.selection__product_sale_price__recommended_sale_price_calculation__recommended_sale_price_margin_perc
+msgid "Recommended Sale Price Margin Perc"
+msgstr "Advies Verkoopprijs Marge Percentage"
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__recommended_sale_price_margin_perc
+msgid "Recommended Sale Price Margin Percentage"
+msgstr "Advies Verkoopprijs Marge Percentage"
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_sale_price__recommended_sale_price
+msgid "Recommended sale price (including VAT)"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_sale_price__recommended_sale_price_margin_perc
+msgid "Recommended sale price margin %"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__sale_price
+#: model_terms:ir.ui.view,arch_db:product_pricing.product_product_normal_form_view_product_pricing
+msgid "Sale Price"
+msgstr "Verkoopprijs"
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__sale_price_calculation
+msgid "Sale Price Calculation"
+msgstr "Verkoopprijsberekening"
+
+#. module: product_pricing
+#: model:ir.model,name:product_pricing.model_sale_order
+msgid "Sales Order"
+msgstr "Verkooporder"
+
+#. module: product_pricing
+#: model:ir.model,name:product_pricing.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Verkooporderregel"
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_extra_cost__extra_cost_type_id
+msgid "Select the cost type"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost__sequence
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_sale_price__sale_price
+msgid "Set price or based on margin"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,field_description:product_pricing.field_product_extra_cost__start_date
+#: model:ir.model.fields,field_description:product_pricing.field_product_sale_price__start_date
+msgid "Start Date"
+msgstr "Start Datum"
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_extra_cost__start_date
+msgid "Start date of the extra cost"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model.fields,help:product_pricing.field_product_sale_price__start_date
+msgid "Start date of the sale price"
+msgstr ""
+
+#. module: product_pricing
+#: model:ir.model,name:product_pricing.model_product_supplierinfo
+msgid "Supplier Pricelist"
+msgstr "Prijslijst leverancier"

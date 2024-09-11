@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_product_sale_price_form" model="ir.ui.view">
+        <field name="name">product.sale_price.form</field>
+        <field name="model">product.sale_price</field>
+        <field name="arch" type="xml">
+            <form string="Product Sale Price">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="product_id"/>
+                            <field name="start_date" required="1"/>
+                            <field name="end_date" required="1"/>
+                            <field name="calculated_cost_price" widget="monetary"/>
+                        </group>
+                        <group>
+                            <field name="sale_price_calculation"/>
+                            <field name="margin" widget="monetary"/>
+                            <field name="margin_percentage"/>
+                            <field name="sale_price" widget="monetary"/>
+                        </group>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="recommended_sale_price_calculation"/>
+                            <field name="recommended_sale_price_margin_perc"/>
+                            <field name="recommended_sale_price" widget="monetary"/>
+                        </group>
+                        <group/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_product_sale_price_tree" model="ir.ui.view">
+        <field name="name">product.sale_price.tree</field>
+        <field name="model">product.sale_price</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="start_date" required="1"/>
+                <field name="end_date" required="1"/>
+                <field name="calculated_cost_price" widget="monetary"/>
+                <field name="sale_price_calculation"/>
+                <field name="margin" widget="monetary"/>
+                <field name="margin_percentage"/>
+                <field name="sale_price" widget="monetary"/>
+                <field name="recommended_sale_price_calculation"/>
+                <field name="recommended_sale_price_margin_perc"/>
+                <field name="recommended_sale_price" widget="monetary"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_product_sale_price" model="ir.actions.act_window">
+        <field name="name">Product Sale Price</field>
+        <field name="res_model">product.sale_price</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="view_product_sale_price_tree"/>
+    </record>
+
+    <menuitem id="product_sale_price_menu" name="Product Sale Price" parent="sale.prod_config_main"
+              action="action_product_sale_price" sequence="13"/>
+
+</odoo>

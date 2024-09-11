@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_order_form_product_pricing" model="ir.ui.view">
+        <field name="model">sale.order</field>
+        <field name="name">sale.order.product_pricing</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='sale_total']" position="inside">
+                <label for="commercial_margin"/>
+                <div class="text-nowrap" name="comm_margin">
+                    <field name="commercial_margin" class="oe_inline" widget="monetary"/>
+                </div>
+                <label for="commercial_margin_percentage"/>
+                <div class="text-nowrap" name="comm_margin_perc">
+                    <field name="commercial_margin_percentage" class="oe_inline"/>
+                </div>
+            </xpath>
+            <xpath expr="//page[@name='order_lines']/field[@name='order_line']/tree/field[@name='price_unit']" position="after">
+                <field name="commercial_margin" widget="monetary"/>
+                <field name="commercial_margin_percentage"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
